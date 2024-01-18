@@ -1,5 +1,5 @@
-# AIDemo
-记录个人使用AI的过程中遇到的问题
+# FenceNotes
+记录个人学习过程中的一些信息
 
 一、图像转手绘
 1、Image-Freehand
