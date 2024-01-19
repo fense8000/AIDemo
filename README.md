@@ -26,11 +26,43 @@
 
 
 
-# 3. 换脸
-## 3.1. 
+# 3. 人脸检测相关
+## 3.1. 换脸
+
+
 
 # 4.对象检测
-## 4.1. Darknet YOLOv3
+## 4.1. Darknet
+- 地址：<https://github.com/AlexeyAB/darknet>
+- 描述：支持YOLOv3,对象检测
+- 评价：使用简单，可在检测后，发送UDP消息
 
 ## 4.2. YOLOv8
+- 地址：<https://docs.ultralytics.com/>  <https://github.com/ultralytics/ultralytics>
+- 描述：支持对象检测、姿态检测、目标分割、分类、跟踪等功能
+- 评价：性能与检测准确度都有所提高，使用ultralytics的代码编译改写即可
+  
+# 5. 标记工具
+in C++: <https://github.com/AlexeyAB/Yolo_mark>  
+in Python: <https://github.com/tzutalin/labelImg>  
+in Python: <https://github.com/Cartucho/OpenLabeling>  
+in C++: <https://www.ccoderun.ca/darkmark/>  
+in JavaScript: <https://github.com/opencv/cvat>  
+in C++: <https://github.com/jveitchmichaelis/deeplabel>  
+in C#: <https://github.com/BMW-InnovationLab/BMW-Labeltool-Lite>  
+DL-Annotator for Windows ($30): url <https://www.microsoft.com/en-us/p/dlannotator/9nsx79m7t8fn?activetab=pivot:overviewtab>
+v7labs - the greatest cloud labeling tool ($1.5 per hour): <https://www.v7labs.com/>
+
+# 6. 姿态检测
+## 6.1 OpenPose
+- 地址：<https://github.com/CMU-Perceptual-Computing-Lab/openpose>
+- 描述：卡内基梅隆大学的openpose 可以检测人体姿态、body,foot,face and hands
+- 评价：不错的开源项目，近两年为更新较少
+![image](https://github.com/fense8000/FenceNotes/assets/7136821/be7e15c5-cf63-4046-9801-2394cc8f2000)
+
+
+
+
+
+
 
