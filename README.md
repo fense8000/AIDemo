@@ -12,9 +12,38 @@
 ![image](https://github.com/fense8000/FenceNotes/assets/7136821/85de9d66-4832-41b5-aa30-1fd9cca17e3b)
 
 ### 1.1.2 PaddleDetect
+- 地址：<https://github.com/PaddlePaddle/PaddleDetection>
+- 描述：PaddleDetection是一个基于PaddlePaddle的目标检测端到端开发套件，在提供丰富的模型组件和测试基准的同时，注重端到端的产业落地应用，通过打造产业级特色模型|工具、建设产业应用范例等手段，帮助开发者实现数据准备、模型选型、模型训练、模型部署的全流程打通，快速进行落地应用。
+![image](https://github.com/fense8000/FenceNotes/assets/7136821/6b07eef0-e39f-4a7f-9f56-bf3faa1afcb6)
+
+### 1.1.3 [PaddleYOLO](https://github.com/PaddlePaddle/PaddleYOLO)
+- 地址：<https://github.com/PaddlePaddle/PaddleYOLO>
+- 描述：PaddleYOLO是基于PaddleDetection的YOLO系列模型库，只包含YOLO系列模型的相关代码，支持YOLOv3、PP-YOLO、PP-YOLOv2、PP-YOLOE、PP-YOLOE+、RT-DETR、YOLOX、YOLOv5、YOLOv6、YOLOv7、YOLOv8、YOLOv5u、YOLOv7u、YOLOv6Lite、RTMDet等模型，COCO数据集模型库请参照 ModelZoo 和 configs。
+
 
 ## 1.2. OpenMMLab (商汤科技)
 - 地址：<https://github.com/open-mmlab>
+- [MMEngine](https://github.com/open-mmlab/mmengine): OpenMMLab foundational library for training deep learning models.
+- [MMCV](https://github.com/open-mmlab/mmcv): OpenMMLab foundational library for computer vision.
+- [MIM](https://github.com/open-mmlab/mim): MIM installs OpenMMLab packages.
+- [MMClassification](https://github.com/open-mmlab/mmclassification): OpenMMLab image classification toolbox and benchmark.
+- [MMDetection](https://github.com/open-mmlab/mmdetection): OpenMMLab detection toolbox and benchmark.
+- [MMDetection3D](https://github.com/open-mmlab/mmdetection3d): OpenMMLab's next-generation platform for general 3D object detection.
+- [MMRotate](https://github.com/open-mmlab/mmrotate): OpenMMLab rotated object detection toolbox and benchmark.
+- [MMYOLO](https://github.com/open-mmlab/mmyolo): OpenMMLab YOLO series toolbox and benchmark.
+- [MMSegmentation](https://github.com/open-mmlab/mmsegmentation): OpenMMLab semantic segmentation toolbox and benchmark.
+- [MMOCR](https://github.com/open-mmlab/mmocr): OpenMMLab text detection, recognition, and understanding toolbox.
+- [MMPose](https://github.com/open-mmlab/mmpose): OpenMMLab pose estimation toolbox and benchmark.
+- [MMHuman3D](https://github.com/open-mmlab/mmhuman3d): OpenMMLab 3D human parametric model toolbox and benchmark.
+- [MMSelfSup](https://github.com/open-mmlab/mmselfsup): OpenMMLab self-supervised learning toolbox and benchmark.
+- [MMRazor](https://github.com/open-mmlab/mmrazor): OpenMMLab model compression toolbox and benchmark.
+- [MMFewShot](https://github.com/open-mmlab/mmfewshot): OpenMMLab fewshot learning toolbox and benchmark.
+- [MMAction2](https://github.com/open-mmlab/mmaction2): OpenMMLab's next-generation action understanding toolbox and benchmark.
+- [MMTracking](https://github.com/open-mmlab/mmtracking): OpenMMLab video perception toolbox and benchmark.
+- [MMFlow](https://github.com/open-mmlab/mmflow): OpenMMLab optical flow toolbox and benchmark.
+- [MMEditing](https://github.com/open-mmlab/mmediting): OpenMMLab image and video editing toolbox.
+- [MMGeneration](https://github.com/open-mmlab/mmgeneration): OpenMMLab image and video generative models toolbox.
+- [MMDeploy](https://github.com/open-mmlab/mmdeploy): OpenMMLab model deployment framework.
 
 
 # 2. 图像转手绘
@@ -43,16 +72,18 @@
 - 评价：性能与检测准确度都有所提高，使用ultralytics的代码编译改写即可
   
 # 5. 标记工具
-in C++: <https://github.com/AlexeyAB/Yolo_mark>  
-in Python: <https://github.com/tzutalin/labelImg>  
-in Python: <https://github.com/Cartucho/OpenLabeling>  
-in C++: <https://www.ccoderun.ca/darkmark/>  
-in JavaScript: <https://github.com/opencv/cvat>  
-in C++: <https://github.com/jveitchmichaelis/deeplabel>  
-in C#: <https://github.com/BMW-InnovationLab/BMW-Labeltool-Lite>  
-DL-Annotator for Windows ($30): url <https://www.microsoft.com/en-us/p/dlannotator/9nsx79m7t8fn?activetab=pivot:overviewtab>
-v7labs - the greatest cloud labeling tool ($1.5 per hour): <https://www.v7labs.com/>
-
+- Yolo_mark in C++: <https://github.com/AlexeyAB/Yolo_mark>  
+- labelImg in Python: <https://github.com/tzutalin/labelImg>  
+- OpenLabeling in Python: <https://github.com/Cartucho/OpenLabeling>  
+- darkmark in C++: <https://www.ccoderun.ca/darkmark/>  
+- cvat in JavaScript: <https://github.com/opencv/cvat>  
+- deeplabel in C++: <https://github.com/jveitchmichaelis/deeplabel>  
+- BMW-Labeltool-Lite in C#: <https://github.com/BMW-InnovationLab/BMW-Labeltool-Lite>  
+- DL-Annotator for Windows ($30): url <https://www.microsoft.com/en-us/p/dlannotator/9nsx79m7t8fn?activetab=pivot:overviewtab>
+- v7labs - the greatest cloud labeling tool ($1.5 per hour): <https://www.v7labs.com/>  
+- labelbee <https://github.com/open-mmlab/labelbee>
+- BILS(视频标注工具) <https://github.com/PaddlePaddle/PaddleVideo/blob/develop/docs/zh-CN/annotation_tools.md>
+- 
 # 6. 姿态检测
 ## 6.1 OpenPose
 - 地址：<https://github.com/CMU-Perceptual-Computing-Lab/openpose>
