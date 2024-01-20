@@ -1,15 +1,34 @@
-# FenceNotes
+![image](https://github.com/fense8000/FenceNotes/assets/7136821/1bfffa0d-9ddf-41ab-85c7-5dbafa787fdc)![image](https://github.com/fense8000/FenceNotes/assets/7136821/60f998cd-3fb4-4f8b-b9c0-46b26354b41d)# FenceNotes
 记录个人学习过程中的一些信息
 
 # 1.综合类
 ## 1.1. Paddle(百度飞桨)
 ### 1.1.1 PaddleGAN
 - 地址：<https://github.com/PaddlePaddle/PaddleGAN/tree/develop>
+- 帮助：<https://github.com/PaddlePaddle/PaddleGAN/blob/develop/README_cn.md>
+- 描述：飞桨生成对抗网络开发套件--PaddleGAN，为开发者提供经典及前沿的生成对抗网络高性能实现，并支撑开发者快速构建、训练及部署生成对抗网络，以供学术、娱乐及产业应用。
+  ![image](https://github.com/fense8000/FenceNotes/assets/7136821/e595654f-82b3-4e6a-9a91-7652fe9716d9)
+![image](https://github.com/fense8000/FenceNotes/assets/7136821/dc2a1b4d-9055-4599-82d9-526ad9e13eb1)
+![image](https://github.com/fense8000/FenceNotes/assets/7136821/c6aaabdd-db6c-4953-9d1c-b28abad2274d)
+
 #### 1.1.1.1 LapStyle (图片转不通风格)
 - 地址：<https://github.com/PaddlePaddle/PaddleGAN/blob/develop/docs/en_US/tutorials/lap_style.md>
 - 描述：PaddleGAN下的样例代码，可以生成不通风格照片
 - 评价：使用简单，官方提供四个风格的预训练模型，效果好
 ![image](https://github.com/fense8000/FenceNotes/assets/7136821/85de9d66-4832-41b5-aa30-1fd9cca17e3b)
+
+#### 1.1.1.2 StyleGAN V2 Editing 模块
+![image](https://github.com/fense8000/FenceNotes/assets/7136821/6a44f7c0-594e-4513-8422-eec2334e208f)
+
+#### 1.1.1.3 视频超分SOTA算法PP-MSVSR：一行命令从"马赛克"到"高清影像"
+![image](https://github.com/fense8000/FenceNotes/assets/7136821/7410dd06-588c-4444-8436-a28112206534)
+
+#### 1.1.1.4 人脸编辑神器：StyleGAN V2人脸属性编辑之性别转换
+![image](https://github.com/fense8000/FenceNotes/assets/7136821/7c8cd64d-3f3b-45ba-8657-217a9d417808)
+
+#### 1.1.1.5 增人脸融合能力，结合新版Frirst Order Motion
+![image](https://github.com/fense8000/FenceNotes/assets/7136821/e8357e02-d9f4-4c69-b679-c2b2b4c0dc28)
+
 
 ### 1.1.2 PaddleDetect
 - 地址：<https://github.com/PaddlePaddle/PaddleDetection>
@@ -20,6 +39,19 @@
 - 地址：<https://github.com/PaddlePaddle/PaddleYOLO>
 - 描述：PaddleYOLO是基于PaddleDetection的YOLO系列模型库，只包含YOLO系列模型的相关代码，支持YOLOv3、PP-YOLO、PP-YOLOv2、PP-YOLOE、PP-YOLOE+、RT-DETR、YOLOX、YOLOv5、YOLOv6、YOLOv7、YOLOv8、YOLOv5u、YOLOv7u、YOLOv6Lite、RTMDet等模型，COCO数据集模型库请参照 ModelZoo 和 configs。
 
+### 1.1.4 模型库
+- [官方模型(official)](https://github.com/PaddlePaddle/models/blob/release/2.4/docs/official/README.md)
+• 面向产业实践，数量超过600个  
+• 飞桨PP系列模型，效果与精度最佳平衡  
+• 支持使用动态图开发视觉、自然语言、语音和推荐等领域模型  
+• 飞桨官方实现并提供持续技术支持及答疑  
+• 与飞桨核心框架版本对齐，已经经过充分的测试保证  
+= [学术模型(research)](https://github.com/PaddlePaddle/models/blob/release/2.4/docs/research/README.md)
+• 面向学术前沿，侧重对于问题的持续更新  
+• 主要由飞桨相关的学术生态合作伙伴贡献  
+= [社区模型(community)](https://github.com/PaddlePaddle/models/blob/release/2.4/docs/community/README.md)	
+• 面向更多丰富场景，侧重对于学术论文的覆盖  
+• 主要由飞桨生态开发者贡献，持续更新中
 
 ## 1.2. OpenMMLab (商汤科技)
 - 地址：<https://github.com/open-mmlab>
@@ -45,6 +77,13 @@
 - [MMGeneration](https://github.com/open-mmlab/mmgeneration): OpenMMLab image and video generative models toolbox.
 - [MMDeploy](https://github.com/open-mmlab/mmdeploy): OpenMMLab model deployment framework.
 
+## 1.3. mediapipe(Google)
+- 地址：https://github.com/google/mediapipe
+- 描述：MediaPipe Solutions provides a suite of libraries and tools for you to quickly apply artificial intelligence (AI) and machine learning (ML) techniques in your applications. You can plug these solutions into your applications immediately, customize them to your needs, and use them across multiple development platforms.
+- 评价：支持对象检测、图像分类、图像分割、手势检测、姿态检测、手部关节点检测、脸部关节点检测等，对于关节点检测通过测试效果很好。
+![image](https://github.com/fense8000/FenceNotes/assets/7136821/5adeaceb-17f4-43b7-9584-2d5c9fa531ed)
+
+
 
 # 2. 图像转手绘
 ## 2.1. Image-Freehand
@@ -55,10 +94,27 @@
 
 
 
-# 3. 人脸检测相关
-## 3.1. 换脸
+# 3. 人脸检测与识别
+## 3.1. 人脸检测
+### 3.1.1 InsightFace: 2D and 3D Face Analysis Project
+- 地址：<https://github.com/deepinsight/insightface>
+![image](https://github.com/fense8000/FenceNotes/assets/7136821/43513d7e-030f-4bda-9cbb-8409f74c0006)
 
+## 3.2. 换脸
 
+### 3.2.1 DeepFaceLive
+- 地址：<https://github.com/iperov/deepfacelive>
+- 描述：You can swap your face from a webcam or the face in the video using trained face models.Here is a list of available ready-to-use public face models.These persons do not exists. Similarities with real people are accidental. Except Keanu Reeves. He exists, and he's breathtaking!
+![image](https://github.com/fense8000/FenceNotes/assets/7136821/f75ac2e8-2f27-4219-8bc7-edd0ce892861)
+
+### 3.2.2 DeepFaceLab
+- 地址：<https://github.com/iperov/DeepFaceLab>
+- 描述：
+  ![image](https://github.com/fense8000/FenceNotes/assets/7136821/ab397d34-80df-47b1-96e6-c22fe719cab2)
+
+### 3.2.3 SimSwap
+- 地址：<https://github.com/neuralchen/SimSwap>
+- 描述：SimSwap: An Efficient Framework For High Fidelity Face Swapping
 
 # 4.对象检测
 ## 4.1. Darknet
