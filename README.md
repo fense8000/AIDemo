@@ -82,8 +82,6 @@ FenceNotes
 - 描述：MediaPipe Solutions provides a suite of libraries and tools for you to quickly apply artificial intelligence (AI) and machine learning (ML) techniques in your applications. You can plug these solutions into your applications immediately, customize them to your needs, and use them across multiple development platforms.
 - 评价：支持对象检测、图像分类、图像分割、手势检测、姿态检测、手部关节点检测、脸部关节点检测等，对于关节点检测通过测试效果很好。
 ![image](https://github.com/fense8000/FenceNotes/assets/7136821/5adeaceb-17f4-43b7-9584-2d5c9fa531ed)
-![image](https://github.com/fense8000/FenceNotes/assets/7136821/1bfffa0d-9ddf-41ab-85c7-5dbafa787fdc)!
-[image](https://github.com/fense8000/FenceNotes/assets/7136821/60f998cd-3fb4-4f8b-b9c0-46b26354b41d)# 
 
 
 # 2. 图像转手绘
