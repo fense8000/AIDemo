@@ -146,6 +146,19 @@ FenceNotes
 - 评价：不错的开源项目，近两年为更新较少
 ![image](https://github.com/fense8000/FenceNotes/assets/7136821/be7e15c5-cf63-4046-9801-2394cc8f2000)
 
+# 7. 照片转漫画
+## 7.1. PaddleGAN 见 1.1.1 PaddleGAN
+
+## 7.2. AnimeGANv2
+- 地址：<https://github.com/TachibanaYoshino/AnimeGANv2>
+- 描述：
+- 项目地址：<https://tachibanayoshino.github.io/AnimeGANv2/>
+
+![image](https://github.com/fense8000/FenceNotes/assets/7136821/cdd4e408-abeb-42b9-8832-ff54407ce292)
+![image](https://github.com/fense8000/FenceNotes/assets/7136821/9d272050-a71e-474a-8153-b2c41dd18519)
+
+
+
 
 
 
